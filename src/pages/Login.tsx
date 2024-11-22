@@ -16,10 +16,10 @@ export default function Login() {
   return (
     <div className="max-w-md mx-auto">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold mb-4">Login to Play!</h2>
+        <h2 className="text-4xl text-red-700 font-bold mb-4">Tee Off with a Tap!</h2>
         <div className="w-24 h-24 mx-auto mb-8">
           {/* Golf flag icon placeholder */}
-          <div className="w-full h-full bg-green-600 rounded-full flex items-center justify-center">
+          <div className="w-full h-full bg-gray-300 rounded-full flex items-center justify-center">
             <span className="text-white text-4xl">⛳</span>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Login() {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             className="mt-1 py-2 block w-full align-middle text-center rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
-            placeholder="Username/Email Address"
+            placeholder="Username / Email Address"
           />
         </div>
 

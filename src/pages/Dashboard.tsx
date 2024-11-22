@@ -42,7 +42,7 @@ export default function Dashboard() {
 
         <form onSubmit={handleJoinGame} className="space-y-4">
           <div>
-            <label htmlFor="gamePin" className="block text-sm font-medium text-gray-700">
+            <label htmlFor="gamePin" className="block text-sm align-items text-center font-medium text-gray-700">
               Join with Game PIN
             </label>
             <input
@@ -50,7 +50,7 @@ export default function Dashboard() {
               id="gamePin"
               value={gamePin}
               onChange={(e) => setGamePin(e.target.value)}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500"
+              className="mt-1 py-2 block w-full rounded-md border-gray-300 items-center text-center shadow-sm focus:border-green-500 focus:ring-green-500"
               placeholder="Enter game PIN"
             />
           </div>

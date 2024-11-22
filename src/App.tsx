@@ -6,7 +6,7 @@ import Dashboard from './pages/Dashboard';
 import GameCreate from './pages/GameCreate';
 import GamePlay from './pages/GamePlay';
 import GameHistory from './pages/GameHistory';
-import { Flag, LandPlot } from 'lucide-react';
+import {  LandPlot } from 'lucide-react';
 
 function App() {
   const user = useStore((state) => state.user);

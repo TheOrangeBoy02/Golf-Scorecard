@@ -1,6 +1,8 @@
 export interface User {
   id: string;
   username: string;
+  email: string;
+  photoURL: string;
 }
 
 export interface Game {
@@ -25,4 +27,9 @@ export interface GameHistory {
   date: string;
   totalScore: number;
   playerCount: number;
+}
+
+export interface Store {
+  user: User | null;
+  setUser: (user: User | null) => void;
 }
